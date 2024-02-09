@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./sketch.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body
+    class="h-screen max-h-screen bg-gradient-to-r from-cyan-500 to-blue-500 font-sans flex flex-row"
+  >
+    <div class="basis-1/6 mt-20 flex justify-center"></div>
+    <div id="g-container" class="mt-10 grow basis-1/2">
+      <div class="flex justify-between mb-2">
+        <h1 class="text-center font-bold text-3xl text-white">Sketch IO</h1>
+        <button
+          class="bg-slate-500 pb-2 pt-2 pr-2 pl-2 rounded text-white"
+          id="clearBoard"
+        >
+          Clear Board
+        </button>
+      </div>
+
+      <div id="container"></div>
+    </div>
+    <div class="basis-1/6"></div>
+  </body>
+</html>
+<script src="./sketch.js"></script>

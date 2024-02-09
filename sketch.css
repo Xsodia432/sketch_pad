@@ -1,0 +1,12 @@
+.sizing {
+  width: calc(100% / 16);
+  height: calc(100% / 16);
+  background-color: white;
+  padding: 7px;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
